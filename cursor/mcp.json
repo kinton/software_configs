@@ -1,1 +1,12 @@
-/Users/kinton/.cursor/mcp.json
+{
+  "mcpServers": {
+    "Figma": {
+      "url": "http://127.0.0.1:3845/mcp"
+    },
+    "chrome-devtools": {
+      "command": "npx -y chrome-devtools-mcp@latest",
+      "env": {},
+      "args": []
+    }
+  }
+}

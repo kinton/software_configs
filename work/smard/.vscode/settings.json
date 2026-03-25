@@ -1,0 +1,26 @@
+{
+  // "typescript.tsdk": "web/node_modules/typescript/lib",
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never",
+    "source.organizeImports": "never"
+  },
+  // "eslint.workingDirectories": ["web/apps/frontend_next", "web/packages/ui"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.requireConfig": true,
+  "editor.tabSize": 2,
+  "tab.size": 2,
+  "space.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "css",
+    "globals.css": "tailwindcss"
+  },
+  "svg.preview.background": "editor",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
